@@ -17,6 +17,8 @@ clickOffsetRight := 540       ; Horizontal offset for 'f' hotkey (right of cente
 #HotIf WinActive("ahk_exe TheBazaar.exe")
 
 ; Set input level to 1 for remapping wheel actions
+
+A_MaxHotkeysPerInterval := 200
 #InputLevel 1
 
 ; Map WheelUp and WheelDown to send the space key
