@@ -51,7 +51,7 @@ DragMouseToTopCenter() {
     ; Get 'TheBazaar.exe' window's position and size
     WinGetPos &winX, &winY, &winWidth, &winHeight, "ahk_exe TheBazaar.exe"
 
-    ; Calculate destination coordinates: center of the top 25% of the window
+    ; Calculate destination coordinates
     dest_x := winWidth / 2
     dest_y := winY + (winHeight * dragDestYPercent)
 
