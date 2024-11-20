@@ -22,6 +22,7 @@ clickOffsetRight := 540       ; Horizontal offset for 'f' hotkey (right of cente
 ; Map WheelUp and WheelDown to send the space key
 WheelUp:: Send("{Space}")
 WheelDown:: Send("{Space}")
+a:: Send("{Space}")
 
 ; Reset InputLevel to default for the following hotkeys
 #InputLevel 0
